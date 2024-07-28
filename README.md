@@ -1,4 +1,4 @@
-# Apsiyon Social Content Check
+## Apsiyon Social Content Check
 
 This application is a simple web demo used for monitoring posts shared in the Apsiyon Social app. This system works during the post-sharing step in the Apsiyon Social app.
 
@@ -8,9 +8,9 @@ For visual posts, the LLM checks if the visual content is appropriate.
 
 ---
 
-## Requirements
+### Requirements
 
-### Environment
+#### Environment
 
 Ensure that your Python version is set to `3.10.12` (pip version is `24.1.2`):
 
@@ -52,8 +52,12 @@ cd <project-directory>
 
 #### Run
 
-- Launch the Streamlit app in terminal:
+- Launch the flask app in terminal:
 ```bash
 python3 app.py
 ```
 ----
+
+
+https://github.com/user-attachments/assets/3bf32c88-cf85-4dc4-96b5-dc8fd2a0f3db
+
