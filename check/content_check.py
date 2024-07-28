@@ -28,7 +28,7 @@ def check_content(text):
 
 def analyze_sentiment(text):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "Verilen metni analiz et ve şu kategorilerden birine yerleştir: Uygun, Uygunsuz, Saldırgan, Kötümser, Kinayeli. Eğer 'Uygun' değilse, neden olduğuna dair kısa, tek cümlelik bir açıklama yap."},
             {"role": "user", "content": text}
