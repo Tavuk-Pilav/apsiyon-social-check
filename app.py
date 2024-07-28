@@ -114,7 +114,7 @@ def analyze_image_route():
         image_path = os.path.join('uploads', image.filename)
         image.save(image_path)
         result, category, feedback = analyze_image_content(image_path)
-        os.remove(image_path)  # Geçici dosyayı sil
+        os.remove(image_path)  
         return jsonify({
             'result': result,
             'category': category,
